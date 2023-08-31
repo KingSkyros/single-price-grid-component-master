@@ -10,25 +10,23 @@
 
 main{
     /* background-color: orange;  */
-    max-width: 100%; 
-    margin: 1% 35% ;  
-    display: flex; 
-    flex-direction: column; 
+    max-width: 30rem; 
+    margin: 1rem auto;  
+    min-height: 100dvh; 
+    border-radius: 2rem;
+    overflow: hidden;
 
 }  
 
 body{ 
     background-color: hsl(204, 43%, 93%) ; 
-    font-family: 'Karla' , cursive;
+    font-family: 'Karla' , cursive;       
+    align-content: center; 
+    justify-content: center;
 }
 
 .first-div{ 
   background-color: hsl(0, 0%, 100%); 
-  padding: 40px 30px; 
-  width: 25rem; 
-  padding-bottom: 10%;   
-  border-top-left-radius: 20px; 
-  border-top-right-radius: 20px; 
 } 
 
 .starter { 
@@ -53,9 +51,8 @@ body{
 
 .second-div{
     background-color: hsl(179, 62%, 43%); 
-    width: 25rem; 
-    padding: 4em 2em; 
-    color: #fff; 
+    color: #fff;  
+    text-align: center;
 } 
 
 .second-starter{ 
@@ -82,22 +79,24 @@ body{
 
 .button{ 
     padding: 15px 6rem;  
-    width: 13em;
     background-color: hsl(71, 73%, 54%); 
     border: none;  
+    display: inline-flex;
     color: #fff; 
-    display: flex;  
     font-size: 150%; 
     font-weight: 200;
+} 
+
+.button:hover{ 
+    border-radius: 2em; 
+    transition: 3s; 
+    border: 2px solid white; 
+    color: black; 
+    background-color: transparent;
 }
 
 .third-div{ 
     background-color: hsl(179, 36%, 55%); 
-    width: 25rem; 
-    padding: 100px 40px;  
-    padding-bottom: 7em;
-    border-bottom-right-radius: 2em;  
-    border-bottom-left-radius: 2em;
     color: #fff; 
     font-size: 120%; 
     text-align: center;
@@ -105,5 +104,20 @@ body{
 
 .attribution{
     font-size: 120%; 
-    font-weight: 500;
+    font-weight: 500; 
+    margin-left: 2em;
+} 
+
+#team-padding{ 
+    padding: 6rem 5rem;
+} 
+
+.attribution { 
+    font-size: 140%;  
+    margin: 2em 2em;
+    text-align: center; 
+}
+
+.attribution a {  
+    color: hsl(228, 45%, 44%);
 }
