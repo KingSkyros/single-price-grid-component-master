@@ -89,7 +89,7 @@ body{
 .button:hover{ 
     border-radius: 2em; 
     border: 2px solid white; 
-    color: black; 
+    color: #fff; 
     background-color: transparent;
 }
 
