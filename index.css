@@ -143,8 +143,16 @@ body{
     } 
 
     .button{ 
-        font-size: 100%;
-        padding: 5% 7rem;
+        padding: 5% 7rem; 
+        transition: 1s ease;
+    } 
+
+    .button:hover{ 
+    border-radius: 2em; 
+    border: 1px solid white; 
+    color: #fff; 
+    background-color: transparent; 
+    cursor: pointer;
     }
 }
 
